@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+  text-decoration-color: #2ecc71;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #2ecc71;
+}
+
+.card p {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+}
+.cta-btn {
+  background-color: #2ecc71; /* couleur de fond */
+  color: #fff; /* couleur du texte */
+  border-radius: 25px; /* bord arrondis */
+  padding: 10px 20px; /* marge interne */
+  text-decoration: none; /* enlever la soulignement du texte */
+  display: inline-block; /* pour que la largeur du bouton s'adapte au contenu */
+  align-items: center; 
+  text-align: center;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.cards a {
+  background-color: #7bed9f;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.cards a:hover {
+  background-color: #2ecc71;
+}
